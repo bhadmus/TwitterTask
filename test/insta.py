@@ -8,8 +8,8 @@ time.sleep(4)
 # steps to login using the login button option
 browser.find_element_by_css_selector('a.StaticLoggedOutHomePage-input').click()
 time.sleep(3)
-browser.find_element_by_css_selector('.js-username-field').send_keys('bhadmus.ademola389@gmail.com')
-browser.find_element_by_css_selector('.js-password-field').send_keys('Sanguine1')
+browser.find_element_by_css_selector('.js-username-field').send_keys('b@gmail.com')
+browser.find_element_by_css_selector('.js-password-field').send_keys('Password')
 browser.find_element_by_css_selector('button.submit').click()
 time.sleep(3)
 # steps to post a tweet
